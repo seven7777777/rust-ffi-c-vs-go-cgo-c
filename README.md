@@ -1,4 +1,4 @@
-# rust-ffic-c-vs-go-cgo-c
+# rust-ffi-c-c-vs-go-cgo-c
 一个简单的rust ffi和go cgo性能对比
 <br>版本：
 <br>rustc 1.43.0 (4fb7144ed 2020-04-20)
