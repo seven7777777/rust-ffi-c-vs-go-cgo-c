@@ -15,3 +15,4 @@
 <br>user    0m0.118s
 <br>sys     0m0.029s
 
+<br>结论：单从接口ffi/cgo的 单向（foreign->c）调用的性能，ffi是cgo的三倍左右
