@@ -21,5 +21,4 @@
 <br>real    0m0.146s
 <br>user    0m0.118s
 <br>sys     0m0.029s
-
-<br>结论：单从接口ffi/cgo的单向(foreign->c)调用的性能来看，ffi是cgo的三倍左右
+<br>结论：单从接口ffi/cgo的单向(foreign->c)调用的性能来看：1.ffi是cgo的三倍左右 2.ffi方式的性能接近c的原生调用性能。
