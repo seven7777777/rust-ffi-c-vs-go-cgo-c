@@ -1,5 +1,9 @@
-# rust-call-c-and-go-call-c
+# rust-ffic-c-vs-go-cgo-c
 一个简单的rust ffi和go cgo性能对比
+<br>版本：
+<br>rustc 1.43.0 (4fb7144ed 2020-04-20)
+<br>go version go1.13.9 linux/amd64
+<br>测试方法：
 <br>1.调用一个c动态库中的echo函数：char* echo(const char* name, size_t keylen, size_t* vallen)
 <br>2.每个实现调用接口1百万次，测试结果：
 <br>=====run cmain call clib=====
